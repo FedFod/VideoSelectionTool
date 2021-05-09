@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 832.0, 81.0, 1576.0, 929.0 ],
+		"rect" : [ 826.0, 37.0, 1576.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,19 +47,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 46.72793036699295, 350.277299761772156, 196.0, 50.0 ],
-					"text" : "\"C:/Program Files/Cycling '74/Max 8/resources/media/jitter/dishes.mov\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-42",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 192.0, 41.0, 61.0, 22.0 ],
-					"text" : "getdrawto"
+					"text" : "\"C:/Program Files/Cycling '74/Max 8/resources/media/jitter/track2.mov\""
 				}
 
 			}
@@ -440,8 +428,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "bang", "" ],
-					"patching_rect" : [ 18.245752990245819, 81.56379234790802, 200.0, 22.0 ],
-					"text" : "jit.world my-ctx @fsaa 1 @floating 1"
+					"patching_rect" : [ 18.245752990245819, 81.56379234790802, 262.0, 22.0 ],
+					"text" : "jit.world my-ctx @fsaa 1 @floating 1 @enable 1"
 				}
 
 			}
@@ -495,13 +483,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-42", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-45", 1 ],
 					"source" : [ "obj-5", 0 ]
 				}
@@ -524,7 +505,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "videoWall.js",
-				"bootpath" : "~/Desktop/VideoWall_Tut - Copy",
+				"bootpath" : "~/Desktop/VideoWall_Share/VideoSelectionTool",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

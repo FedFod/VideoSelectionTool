@@ -49,7 +49,7 @@ function VideoPlayer(ctx, path, index) {
     this.checkIfSelected = function(ID) {
         if (ID === this.physBody.name) {
             this.highLight.enable = 1;
-            outlet(0, this.path)
+            outlet(0, this.path);
         } else {
             this.highLight.enable = 0;
         }
